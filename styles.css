@@ -1,0 +1,38 @@
+/* Basic reset */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set background color and center content */
+body {
+    background-color: #f0f8ff; /* Light Alice Blue background */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container styling */
+.container {
+    text-align: center;
+    background-color: #ffffff; /* White background for the container */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styling */
+h1 {
+    color: #ff69b4; /* Hot Pink color */
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+/* Paragraph styling */
+p {
+    color: #555555; /* Dark gray color */
+    font-size: 1.2rem;
+}
